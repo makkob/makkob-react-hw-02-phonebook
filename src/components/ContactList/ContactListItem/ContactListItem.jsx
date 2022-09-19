@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 
 export default function ContactListItem({id , name , number , onRemove}) {
   return (
@@ -14,3 +15,18 @@ export default function ContactListItem({id , name , number , onRemove}) {
 
   )
 }
+
+
+
+ContactListItem.defaultProps = {
+  name: "no name",
+  number: "no number",
+  id: "no id"
+};
+
+ContactListItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  number: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  onRemove: PropTypes.func.isRequired,
+};

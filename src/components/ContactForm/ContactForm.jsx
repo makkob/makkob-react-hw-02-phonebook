@@ -1,6 +1,8 @@
 
 import React, { Component } from 'react'
 import styles from "./ContactForm.module.css";
+import PropTypes from "prop-types";
+
 
 
 
@@ -67,3 +69,15 @@ export default class ContactForm extends Component {
     )
   }
 }
+
+ContactForm.defaultProps = {
+  name: "no name",
+  number :"no number"
+};
+
+ContactForm.propTypes = {
+  name: PropTypes.string.isRequired,
+  number: PropTypes.string.isRequired,
+
+};
+

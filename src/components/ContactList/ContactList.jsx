@@ -1,5 +1,7 @@
 import React from 'react'
 import ContactListItem from "./ContactListItem"
+import PropTypes from "prop-types";
+
 
 export default function ContactList({filter , contacts , onHandleRemoveTask }) {
 
@@ -29,3 +31,15 @@ export default function ContactList({filter , contacts , onHandleRemoveTask }) {
 
   )
 }
+
+
+ContactList.defaultProps = {
+  contacts: [],
+  filter: "",
+};
+
+ContactList.propTypes = {
+  contacts: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
+  filter: PropTypes.string,
+  onHandleRemoveTask: PropTypes.func.isRequired,
+};
