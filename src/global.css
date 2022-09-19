@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(201, 200, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+input{
+    font-size: 18px;
+}
+li{
+    margin: 0.4rem 0 0.4rem 0;
+  font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 4px;
+    background-color: rgb(199, 253, 255);
+   
+  }
+ 
+  ul{
+    padding: 0;
+  }

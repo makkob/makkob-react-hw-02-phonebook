@@ -1,0 +1,7 @@
+.pFilter {
+    background-color: rgb(204, 255, 146);
+    margin: 12px 0px 4px 0px;
+    border-radius: 4px;
+    border: solid 1px rgb(66, 66, 66); 
+    width: fit-content;
+}
