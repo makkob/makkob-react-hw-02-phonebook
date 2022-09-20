@@ -1,7 +1,7 @@
 {
   "name": "react-hw-02-phonebook",
   "version": "0.1.0",
-  "homepage": "https://makkob.github.io/react-hw-02-phonebook/",
+  "homepage": "https://makkob.github.io/makkob-react-hw-02-phonebook/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
